@@ -1,0 +1,112 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;overflow-x:none ;
+    }
+    .container{
+        box-sizing: border-box;
+        width: 100%;height: 100%;background-color: bisque;border: 1px solid black; overflow-x: none;
+        align-items: center;
+    }
+    #navlist{
+        margin-left: 5px;margin-right: 5px;
+        
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        
+        
+    }
+    .navcontainer{
+        width: 100vw;background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav{
+
+        width: 100%;
+    }
+
+
+.body1{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 70%;
+    margin: auto;
+    
+    box-shadow: 0px 0px 30px black;
+    background-color: whitesmoke;
+}
+
+.leftbox h2{
+    
+    font-size: 2rem;
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.igbox{
+    font-size: 1.2rem;
+}
+.rightbox img{
+    height: 200px;width: 150px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+
+}
+.rightbox:hover{
+    transform: scale(1.1);
+}
+
+.item1{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#navlogo{
+    color: green;
+}
+.foot{
+    display: flex;
+    background-color: aqua;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-weight: 10;
+    justify-content: center;color: brown;
+    
+}
+.rightbox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear 0s;
+    
+
+}
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;width: 100%;height: 100%;background-color: rgba(133, 95, 95, 0.438) ;display: flex;
+    align-items: center;justify-content: center;border-radius: 20px;opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+.rightbox:hover .overlay{
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#navitems{
+    display: flex;
+    gap: 20px;
+}
